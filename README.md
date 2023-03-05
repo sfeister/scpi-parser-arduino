@@ -1,5 +1,5 @@
 # SCPI Parser port to Arduino
-This repository holds an Arduino port of the [SCPI Parser library](https://github.com/j123b567/scpi-parser) (which is C/C++ code). The SCPI Parser library is an open project written by Jan Breur.
+This repository holds an Arduino port of the [SCPI Parser library](https://github.com/j123b567/scpi-parser) (which is C/C++ code). The SCPI Parser library is an open project written by Jan Breuer.
 
 ## Authorship
 The SCPI Parser C/C++ library is **not** written by me. I ported it to Arduino so we could use this powerful library easily with Teensy 4.1 boards, which use the Arduino IDE, to develop embedded devices that communicate over SCPI.
