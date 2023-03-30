@@ -6,7 +6,7 @@ SCPI Parser is not suitable for beginners to Arduino. For a lighter-weight solut
 ## About
 The SCPI Parser C/C++ library is written by **Jan Breuer** and is contributed to by a variety of community members.
 
-I re-packaged it as an Arduino library so we could use this powerful library easily with Teensy 4.1 boards, which use the Arduino IDE, to develop embedded devices that communicate over SCPI.
+I re-packaged it as an Arduino library so we could use this powerful library easily with Teensy 4.1 boards, which use the Arduino IDE, to develop embedded devices that communicate over SCPI. Arduino Library port of SCPI Parser is maintained by Scott Feister. I will try to keep it up-to-date with the primary SCPI Parser library. Open issues here *only* with issues of SCPI Parser in the Arduino IDE (not for general issues with SCPI Parser).
 
 ## Documentation
 Visit the [Official SCPI Parser Documentation](https://www.jaybee.cz/scpi-parser/) or the [Official SCPI Parser GitHub](https://github.com/j123b567/scpi-parser)  for documentation on SCPI Parser (C/C++). The documentation on *this* page only contains developer information about the port of SCPI Parser to an Arduino Library.
