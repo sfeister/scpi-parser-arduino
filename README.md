@@ -1,17 +1,23 @@
-# SCPI Parser port to Arduino
-SCPI Parser for advanced programmers or instrumentation engineers. Not suitable for beginners to Arduino. For a lighter-weight solution in your Arduino projects, consider the [Vrekrer SCPI Parser library](https://github.com/Vrekrer/Vrekrer_scpi_parser). It is much simpler and easier to incorporate into your Arduino code.
+# SCPI Parser Arduino Library
+SCPI Parser is for advanced programmers or instrumentation engineers. This GitHub page contains a port of that library for the Arduino IDE.
 
-This repository holds an Arduino port of the [SCPI Parser library](https://github.com/j123b567/scpi-parser) (which is C/C++ code). The SCPI Parser library is an open project written by Jan Breuer.
+SCPI Parser is not suitable for beginners to Arduino. For a lighter-weight solution in your Arduino projects, consider the [Vrekrer SCPI Parser library](https://github.com/Vrekrer/Vrekrer_scpi_parser). It is much simpler and easier to incorporate into your Arduino code.
 
-This port is not tested on any boards except for the Teensy 4.1. It does not work on the Arduino Uno, Arduino Nano, etc.
+## About
+The SCPI Parser C/C++ library is written by **Jan Breuer** and is contributed to by a variety of community members.
+
+I re-packaged it as an Arduino library so we could use this powerful library easily with Teensy 4.1 boards, which use the Arduino IDE, to develop embedded devices that communicate over SCPI.
+
+## Documentation
+Visit the [Official SCPI Parser Documentation](https://www.jaybee.cz/scpi-parser/) or the [Official SCPI Parser GitHub](https://github.com/j123b567/scpi-parser)  for documentation on SCPI Parser (C/C++). The documentation on *this* page only contains developer information about the port of SCPI Parser to an Arduino Library.
+
+## Installation
+This library is meant to be installed through the Arduino library manager. You can also download this repository as a zip file.
+
+## Limitations
+This port to Arduino IDE is not tested on any boards except for the Teensy 4.1. It does not work on the Arduino Uno, Arduino Nano, etc.
 
 ## Authorship
-The SCPI Parser C/C++ library is **not** written by me. I ported it to Arduino so we could use this powerful library easily with Teensy 4.1 boards, which use the Arduino IDE, to develop embedded devices that communicate over SCPI.
-
-The SCPI Parser C/C++ library is written by **Jan Breuer** and is contributed to by a variety of community members. The source code for SCPI Parser (C/C++) is hosted at https://github.com/j123b567/scpi-parser. The documentation is hosted at http://j123b567.github.io/scpi-parser.
-
-## Installing the library
-This library is meant to be installed through the Arduino library manager. You can also download it manually into your Arduino libraries folder.
 
 ## References I used while porting this library to Arduino
 
@@ -43,6 +49,7 @@ Create a new folder named "src". This will store all source code and headers. (S
 1. From the SCPI Parser GitHub page, copy over the "root/libscpi/src" folder in its entirety. This becomes "/src/src" in the Arduino Library.
 1. From the SCPI Parser GitHub page, copy over the "root/libscpi/inc/scpi" folder in its entirety. This becomes "/src/scpi" in the Arduino Library.
 1. Within the Arduino Library, move the file "/src/scpi/scpi.h" up one level so it becomes "/src/scpi.h".
+1. Rename "scpi.h" to "SCPI_Parser.h", to match Arduino best practices of matching header files to library name.
 
 ## Included Example
 This Arduino library contains just one example. This example is a direct port of the "test-interactive" example from the "examples" folder of the original source code of SCPI Parser.
