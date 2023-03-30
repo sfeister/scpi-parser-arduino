@@ -59,7 +59,7 @@ The following files were adapted from the original source code of SCPI Parser wh
 * root/examples/common-cxx/scpi-def.h
 * root/examples/test-interactive-cxx/main.cpp
 
-In particular, for scpi-def.cpp and scpi-def.h, I just replaced `include "scpi/scpi.h"` with `include <scpi.h>.
+In particular, for scpi-def.cpp and scpi-def.h, I just replaced `#include "scpi/scpi.h"` with `#include <SCPI_Parser.h>`.
 
 The "test-interactive/main.cpp" required much more heavy modfication, and became "test-interactive.ino". You can interact with this test device through the Serial monitor of the Arduino IDE.
 
