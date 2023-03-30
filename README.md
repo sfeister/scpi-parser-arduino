@@ -17,8 +17,6 @@ This library is meant to be installed through the Arduino library manager. You c
 ## Limitations
 This port to Arduino IDE is not tested on any boards except for the Teensy 4.1. It does not work on the Arduino Uno, Arduino Nano, etc.
 
-## Authorship
-
 ## References I used while porting this library to Arduino
 
 1. [Arduino Libraries](https://docs.arduino.cc/hacking/software/Libraries)
