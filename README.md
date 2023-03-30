@@ -1,5 +1,5 @@
 # SCPI Parser Arduino Library
-SCPI Parser is for advanced programmers or instrumentation engineers. This GitHub page contains a port of that library for the Arduino IDE.
+[SCPI Parser](https://github.com/j123b567/scpi-parser) attempts to be SCPI-99 compliant and is aimed at advanced programmers or instrumentation engineers. This GitHub page contains a port of that library for the Arduino IDE.
 
 SCPI Parser is not suitable for beginners to Arduino. For a lighter-weight solution in your Arduino projects, consider the [Vrekrer SCPI Parser library](https://github.com/Vrekrer/Vrekrer_scpi_parser). It is much simpler and easier to incorporate into your Arduino code.
 
