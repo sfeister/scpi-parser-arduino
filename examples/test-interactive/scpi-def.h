@@ -44,7 +44,7 @@
 #define __SCPI_DEF_H_
 
 
-#include <scpi.h>
+#include <SCPI_Parser.h>
 
 #define SCPI_INPUT_BUFFER_LENGTH 256
 #define SCPI_ERROR_QUEUE_SIZE 17
